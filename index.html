@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Noah Jaurigue | CSE110 Lab2</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+    </head>
+    <body>
+        <header>
+            <div id="titleText">
+                <h1>8-Ball First Brainstorm</h1>
+                <h2>Meeting Minutes of Sample Team (<em>4/13</em>)</h2>
+            </div>
+            <nav>
+                <span>
+                    <a href="#attendance""><b>Attendance</b></a>
+                    <a href="#summary"><b>Summary</b></a>
+                    <a href="#completed"><b>Completed</b></a>
+                    <a href="#goals"><b>Goals</b></a>
+                    <a href="#media"><b>Media</b></a>
+                </span>
+            </nav>
+        </header>
+        <main>
+            <hr>
+            <section id="attendance">
+                <h3>Attendance</h3>
+                <p>The following team members attended this meeting:</p>
+                <ul>
+                    <li>Noah Jaurigue</li>
+                    <li>Bob the Builder</li>
+                    <li>Tony Stark</li>
+                </ul>
+            </section>
+            <section id="summary">
+                <h3>Summary</h3>
+                <p>In this meeting, our team continued to break down the various components of a successful 8-Ball project. We have selected different team members to be part of the front-end and back-end portions of the project, as described below. We also have an outline to follow for the upcoming week's tasks.</p>
+            </section>
+            <section id="completed">
+                <h3>Completed</h3>
+                <p>The following objectives from last meeting have been completed:</p>
+                <ul>
+                    <li>Established front-end/back-end roles</li>
+                    <li>Clarified 8-Ball components/features (randomizer, display, style)</li>
+                    <li>Researched the history of 8-Ball devices</li>
+                </ul>
+            </section>
+            <section id="goals">
+                <h3>Goals for Next Meeting</h3>
+                <p>For our next meeting, we hope to accomplish the following tasks (<i>in priority order</i>):</p>
+                <ol>
+                    <li>Begin code/stack structuring</li>
+                    <li>Organize a weekly meeting time</li>
+                    <li>Develop a rough timeline for project deadlines</li>
+                </ol>
+            </section>
+            <section id="media">
+                <h3>Media</h3>
+                <details>
+                    <summary>Recordings</summary>
+                    <video controls>
+                        <source src="media/meetingVideo.mp4" type="video/mp4">
+                    </video>
+                    <audio controls>
+                        <source src="media/meetingAudio.mp3" type="audio/mpeg">
+                    </audio>
+                </details>
+                <p>Validator Screenshot:</p>
+
+            </section>
+            <section id="forms">
+                <h3>Forms</h3>
+                <form>
+                    <fieldset>
+                        <legend>User Info:</legend>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name"><br>
+                        <label for="date">Birthday:</label><br>
+                        <input type="date" id="date"><br><br>
+
+                        <label>Year:</label><br>
+                        <input type="radio" id="year1" name="year" value="year1">
+                        <label for="year1">1st Year</label><br>
+                        <input type="radio" id="year2" name="year" value="year2">
+                        <label for="year2">2nd Year</label><br>                        
+                        <input type="radio" id="year3" name="year" value="year3">
+                        <label for="year3">3rd Year</label><br>
+                        <input type="radio" id="year4" name="year" value="year4">
+                        <label for="year4">4th Year</label><br><br>
+
+                        <label>Classes:</label><br>
+                        <input type="checkbox" id="CSE100" value="CSE100">
+                        <label for="CSE100"> CSE100</label><br>
+                        <input type="checkbox" id="CSE101" value="CSE101">
+                        <label for="CSE101"> CSE101</label><br>
+                        <input type="checkbox" id="CSE105" value="CSE105">
+                        <label for="CSE105"> CSE105</label><br>
+                        <input type="checkbox" id="CSE110" value="CSE110">
+                        <label for="CSE110"> CSE110</label><br><br>
+
+                        <label>Favorite Pet:</label>
+                        <input list="pets" name="pets" id="pet">
+                        <datalist id="pets">
+                            <option value="Dogs">
+                            <option value="Cats">
+                            <option value="Fish"></option>
+                        </datalist><br><br>
+
+                        <label>Best School:</label>
+                        <select name="schools" id="schools">
+                            <option value="ucsd">UCSD</option>
+                            <option value="uci">UCI</option>
+                            <option value="ucr">UCR</option>
+                            <option value="usd">USD</option>
+                        </select><br><br>
+
+                        <label>Any comments?</label><br>
+                        <textarea></textarea><br><br>
+
+                        <button type="button" id="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+            <br>
+            <hr>
+        </main>
+        <footer>
+            <p><strong>Developed by Noah Jaurigue</strong></p>
+        </footer>
+    </body>
+</html>
