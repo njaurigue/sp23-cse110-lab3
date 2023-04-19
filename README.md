@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-[Published Site](https://njaurigue.github.io/CSE110Lab2_Starter/)
+# Lab 3 - Noah Jaurigue
+[Published Site](https://njaurigue.github.io/sp23-cse110-lab3/)
